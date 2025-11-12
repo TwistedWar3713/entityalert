@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "entityalert",
+  "version": "2.0.1",
+  "name": "Entity Alert",
+  "description": "Get a warn whenever too many entities are near!",
+  "authors": ["TwistedWar3713"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "name.modid.entityalert.EntityAlertMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.5",
+    "fabric-api": "*"
+  }
+}
